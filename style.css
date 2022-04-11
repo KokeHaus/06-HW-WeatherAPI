@@ -25,14 +25,16 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   font-weight: 700;
   margin: 0;
   color: var(--dark);
   line-height: 1.25;
 }
-
+h5{
+  font-size:24px;
+  font-style:bold;
+}
 main {
   margin: 20px auto;
   width: 94%;
@@ -40,6 +42,11 @@ main {
 
 p {
   font-size: 1.2rem;
+}
+#forecastbody{
+  display:flex;
+  flex-direction:row;
+  transform:translate(0px,80px);
 }
 
  .btn {
@@ -55,6 +62,16 @@ p {
   background-color: dodgerblue;
   transform: translate(-1px, -1px);
 
+}
+.forecastcard{
+  display:flex;
+  flex-direction:row;
+  background-color: #1E3664;
+  line-height:40px;
+  color: white;
+}
+#dayonebody{
+  line-height:70px;
 }
 
  .btn:hover {
@@ -108,6 +125,90 @@ p {
   padding: 6px 5px;
   width: 100%;
   transform: translate(0px, 10px);
+
+  border-radius: var(--border-radius);
+  color: var(--primary);
+  border: none;
+  outline: none;
+  background-color: gray;
+  list-style: none;
+}
+#NewYork{
+  font-size: 1.3rem;
+  text-decoration:none;
+  padding: 6px 5px;
+  width: 100%;
+  transform: translate(0px, 20px);
+
+  border-radius: var(--border-radius);
+  color: var(--primary);
+  border: none;
+  outline: none;
+  background-color: gray;
+  list-style: none;
+}
+#Orlando{
+  font-size: 1.3rem;
+  text-decoration:none;
+  padding: 6px 5px;
+  width: 100%;
+  transform: translate(0px, 30px);
+
+  border-radius: var(--border-radius);
+  color: var(--primary);
+  border: none;
+  outline: none;
+  background-color: gray;
+  list-style: none;
+}
+#SanFrancisco{
+  font-size: 1.3rem;
+  text-decoration:none;
+  padding: 6px 5px;
+  width: 100%;
+  transform: translate(0px, 40px);
+
+  border-radius: var(--border-radius);
+  color: var(--primary);
+  border: none;
+  outline: none;
+  background-color: gray;
+  list-style: none;
+}
+#Seattle{
+  font-size: 1.3rem;
+  text-decoration:none;
+  padding: 6px 5px;
+  width: 100%;
+  transform: translate(0px, 50px);
+
+  border-radius: var(--border-radius);
+  color: var(--primary);
+  border: none;
+  outline: none;
+  background-color: gray;
+  list-style: none;
+}
+#Denver{
+  font-size: 1.3rem;
+  text-decoration:none;
+  padding: 6px 5px;
+  width: 100%;
+  transform: translate(0px, 60px);
+
+  border-radius: var(--border-radius);
+  color: var(--primary);
+  border: none;
+  outline: none;
+  background-color: gray;
+  list-style: none;
+}
+#Atlanta{
+  font-size: 1.3rem;
+  text-decoration:none;
+  padding: 6px 5px;
+  width: 100%;
+  transform: translate(0px, 70px);
 
   border-radius: var(--border-radius);
   color: var(--primary);
